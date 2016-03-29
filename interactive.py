@@ -1,9 +1,13 @@
-import glossary
+import builtins
 import random
 import time
-import builtins
+
 #DATA = glossary.CONCEPTS
 from time import gmtime, strftime
+
+
+def pull_request():
+    print()
 
 def starts_lowercase_regex(name):
     """return true if starts with lowercase letter"""
